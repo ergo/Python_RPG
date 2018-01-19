@@ -2,6 +2,7 @@
 #    A way to perform automatic fight sequence until one of heroes is dead
 #    Heroes may want to have some very basic stats (health, agility, strength) and skills (dodge, block)
 #    Heroes may want to be able to use some items that influence stats
+#dupadupa
 Warrior1 = {
     "name":"Wiran",
     "hp":100,
