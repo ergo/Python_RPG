@@ -4,34 +4,34 @@
 #    Heroes may want to be able to use some items that influence stats
 Warrior1 = {
     "name":"Wiran",
-    "health":100,
+    "hp":100,
     "strength":10,
     "agility":10,
-    "block":15,
+    "block":25,
     "dodge":15,
-    "backpack":{},
+    "backpack":{"weapon":4,"armor":2,"boots":5,"shield":4},
 }
 
 
 Warrior2 = {
     "name":"Ruby",
-    "health":80,
-    "strength":9,
-    "agility":11,
-    "block":10,
-    "dodge":20,
-    "backpack":{},
+    "hp":80,
+    "strength":7,
+    "agility":15,
+    "block":15,
+    "dodge":45,
+    "backpack":{"weapon":4,"armor":2,"boots":9,"shield":2},
 }
 
 
 Warrior3 = {
     "name":"Wedge",
-    "health":130,
+    "hp":130,
     "strength":11,
-    "agility":7,
-    "block":20,
-    "dodge":5,
-    "backpack":{},
+    "agility":4,
+    "block":35,
+    "dodge":0,
+    "backpack":{"weapon":3,"armor":5,"boots":0,"shield":7},
 }
 
 gladiators = [Warrior1,Warrior2,Warrior3]
